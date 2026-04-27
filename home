@@ -3,7 +3,7 @@
     <title>About Me</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="../css.css">
+    <link rel="stylesheet" type="text/css" href="./css.css">
 </head>
 
 <!--Content of the page-->
@@ -19,19 +19,19 @@
     <!--Navbar taken from bootstrap website-->
     <nav class="navbar navbar-expand">
     <div class="container-fluid">
-        <a class="navbar-brand" href="home.html">Home</a>
+        <a class="navbar-brand" href="./pages/home.html">Home</a>
     
 
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">Overview</a>
+            <a class="nav-link active" aria-current="page" href="./pages/home.html">Overview</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="aboutme.html">About Me</a>
+            <a class="nav-link" href="./pages/aboutme.html">About Me</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="../CA2-sample-code/public/chat.html">Chat</a>
+            <a class="nav-link" href="./CA2-sample-code/public/index.html">Chat</a>
             </li>
         </ul>
         </div>
